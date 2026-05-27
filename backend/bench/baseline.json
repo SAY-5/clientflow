@@ -1,0 +1,5 @@
+{
+  "rules": 500,
+  "inputs": 2000,
+  "evals_per_second": 600.0
+}
