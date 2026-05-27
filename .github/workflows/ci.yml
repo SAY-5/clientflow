@@ -43,7 +43,7 @@ jobs:
         run: mypy app
       - name: Pytest with coverage gate
         working-directory: backend
-        run: pytest --cov=app --cov-report=term-missing --cov-fail-under=86
+        run: pytest --cov=app --cov-report=term-missing --cov-fail-under=90
 
   web:
     runs-on: ubuntu-latest
